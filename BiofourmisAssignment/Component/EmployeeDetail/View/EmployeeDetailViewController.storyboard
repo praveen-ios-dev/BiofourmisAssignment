@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17125"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Employee Detail View Controller-->
+        <scene sceneID="A6g-0C-TuQ">
+            <objects>
+                <viewController storyboardIdentifier="EmployeeDetailViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="S1b-Kq-ioH" customClass="EmployeeDetailViewController" customModule="BiofourmisAssignment" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="MHp-qS-NBt">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="uhm-O6-I2O">
+                                <rect key="frame" x="16" y="44" width="382" height="358.5"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="O3C-um-uoc" userLabel="Name">
+                                <rect key="frame" x="16" y="426.5" width="382" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gpG-Sh-obS" userLabel="Email">
+                                <rect key="frame" x="16" y="463.5" width="382" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="LXo-pz-17t"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="gpG-Sh-obS" firstAttribute="top" secondItem="O3C-um-uoc" secondAttribute="bottom" constant="16" id="78p-qz-Rls"/>
+                            <constraint firstItem="uhm-O6-I2O" firstAttribute="leading" secondItem="LXo-pz-17t" secondAttribute="leading" constant="16" id="8TM-e4-tRL"/>
+                            <constraint firstItem="gpG-Sh-obS" firstAttribute="leading" secondItem="O3C-um-uoc" secondAttribute="leading" id="9yV-L0-OAc"/>
+                            <constraint firstItem="O3C-um-uoc" firstAttribute="leading" secondItem="uhm-O6-I2O" secondAttribute="leading" id="Jbo-B6-CE8"/>
+                            <constraint firstItem="uhm-O6-I2O" firstAttribute="top" secondItem="LXo-pz-17t" secondAttribute="top" id="MiU-Vz-IVb"/>
+                            <constraint firstItem="O3C-um-uoc" firstAttribute="trailing" secondItem="uhm-O6-I2O" secondAttribute="trailing" id="Qge-DS-dQa"/>
+                            <constraint firstItem="LXo-pz-17t" firstAttribute="trailing" secondItem="uhm-O6-I2O" secondAttribute="trailing" constant="16" id="TAs-9h-h9p"/>
+                            <constraint firstItem="gpG-Sh-obS" firstAttribute="trailing" secondItem="O3C-um-uoc" secondAttribute="trailing" id="bgy-5H-RW1"/>
+                            <constraint firstItem="O3C-um-uoc" firstAttribute="top" secondItem="uhm-O6-I2O" secondAttribute="bottom" constant="24" id="vsP-qC-q0T"/>
+                            <constraint firstItem="uhm-O6-I2O" firstAttribute="height" secondItem="MHp-qS-NBt" secondAttribute="height" multiplier="0.4:1" id="wXI-7h-RlP"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="H6f-t5-hk4"/>
+                    <connections>
+                        <outlet property="emailLabel" destination="gpG-Sh-obS" id="Bck-TI-IhD"/>
+                        <outlet property="imageView" destination="uhm-O6-I2O" id="TCk-gZ-pHA"/>
+                        <outlet property="nameLabel" destination="O3C-um-uoc" id="NXH-x8-7OJ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vQm-gj-tQW" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="971.01449275362324" y="113.83928571428571"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

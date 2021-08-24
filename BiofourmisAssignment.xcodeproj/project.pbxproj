@@ -3,18 +3,36 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4F0646376F0D37F22003F490 /* Pods_BiofourmisAssignmentTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04F06EDD55FA00E7F4F8AA82 /* Pods_BiofourmisAssignmentTests.framework */; };
+		787DC39C95B8F1302F8057D0 /* Pods_BiofourmisAssignment_BiofourmisAssignmentUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA2D1F3068A93A3341AF378B /* Pods_BiofourmisAssignment_BiofourmisAssignmentUITests.framework */; };
+		D979E1F2E0934E3847480B2B /* Pods_BiofourmisAssignment.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD5EFCBAAE93D2202BB36890 /* Pods_BiofourmisAssignment.framework */; };
 		F02017A026CFF10900695B03 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F020179F26CFF10900695B03 /* AppDelegate.swift */; };
 		F02017A226CFF10900695B03 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F02017A126CFF10900695B03 /* SceneDelegate.swift */; };
-		F02017A426CFF10900695B03 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F02017A326CFF10900695B03 /* ViewController.swift */; };
-		F02017A726CFF10900695B03 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F02017A526CFF10900695B03 /* Main.storyboard */; };
 		F02017A926CFF10B00695B03 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F02017A826CFF10B00695B03 /* Assets.xcassets */; };
 		F02017AC26CFF10B00695B03 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F02017AA26CFF10B00695B03 /* LaunchScreen.storyboard */; };
 		F02017B726CFF10B00695B03 /* BiofourmisAssignmentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F02017B626CFF10B00695B03 /* BiofourmisAssignmentTests.swift */; };
 		F02017C226CFF10B00695B03 /* BiofourmisAssignmentUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F02017C126CFF10B00695B03 /* BiofourmisAssignmentUITests.swift */; };
+		F091199E26D50924000FE880 /* NetworkLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F091199D26D50924000FE880 /* NetworkLayer.swift */; };
+		F09119AC26D50993000FE880 /* EmployeeListWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = F09119AB26D50993000FE880 /* EmployeeListWorker.swift */; };
+		F09119B426D50A5A000FE880 /* EmployeeListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F09119B326D50A5A000FE880 /* EmployeeListModel.swift */; };
+		F09119C626D50D40000FE880 /* EmployeListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F09119C526D50D40000FE880 /* EmployeListViewModel.swift */; };
+		F09119CE26D52892000FE880 /* EmployeeDetailViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F09119CD26D52892000FE880 /* EmployeeDetailViewController.storyboard */; };
+		F09119D326D52B3A000FE880 /* EmployeeDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F09119D226D52B3A000FE880 /* EmployeeDetailViewController.swift */; };
+		F09119DE26D5304A000FE880 /* EmployeeDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F09119DD26D5304A000FE880 /* EmployeeDetailViewModel.swift */; };
+		F09119E326D56026000FE880 /* AppHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = F09119E226D56026000FE880 /* AppHelper.swift */; };
+		F09119F826D56C12000FE880 /* BiofourmisConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = F09119F726D56C12000FE880 /* BiofourmisConstant.swift */; };
+		F0911A0626D589FB000FE880 /* AgentLoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0911A0526D589FB000FE880 /* AgentLoginViewModel.swift */; };
+		F0E8376026D00D3C0054E04C /* AgentLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0E8375D26D00D3C0054E04C /* AgentLoginViewController.swift */; };
+		F0E8376126D00D3C0054E04C /* AgentLoginViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F0E8375E26D00D3C0054E04C /* AgentLoginViewController.storyboard */; };
+		F0E8376E26D00E320054E04C /* EmployeListTableViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F0E8376D26D00E320054E04C /* EmployeListTableViewController.storyboard */; };
+		F0E8377326D00E6C0054E04C /* EmployeListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0E8377226D00E6B0054E04C /* EmployeListTableViewController.swift */; };
+		F0E8377926D00E9A0054E04C /* EmployeListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0E8377726D00E9A0054E04C /* EmployeListTableViewCell.swift */; };
+		F0E8377A26D00E9A0054E04C /* EmployeListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F0E8377826D00E9A0054E04C /* EmployeListTableViewCell.xib */; };
+		F0E8378726D011D10054E04C /* BiofourmisExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0E8378626D011D10054E04C /* BiofourmisExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,11 +53,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		04F06EDD55FA00E7F4F8AA82 /* Pods_BiofourmisAssignmentTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BiofourmisAssignmentTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2EA2F93CA4148057AD7DF7E1 /* Pods-BiofourmisAssignment-BiofourmisAssignmentUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BiofourmisAssignment-BiofourmisAssignmentUITests.release.xcconfig"; path = "Target Support Files/Pods-BiofourmisAssignment-BiofourmisAssignmentUITests/Pods-BiofourmisAssignment-BiofourmisAssignmentUITests.release.xcconfig"; sourceTree = "<group>"; };
+		42502B637DF0EF70D352A218 /* Pods-BiofourmisAssignment-BiofourmisAssignmentUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BiofourmisAssignment-BiofourmisAssignmentUITests.debug.xcconfig"; path = "Target Support Files/Pods-BiofourmisAssignment-BiofourmisAssignmentUITests/Pods-BiofourmisAssignment-BiofourmisAssignmentUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		7CBE597CDC48C6707D069EB4 /* Pods-BiofourmisAssignment.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BiofourmisAssignment.release.xcconfig"; path = "Target Support Files/Pods-BiofourmisAssignment/Pods-BiofourmisAssignment.release.xcconfig"; sourceTree = "<group>"; };
+		90D283C73F26E47CABA5B551 /* Pods-BiofourmisAssignment.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BiofourmisAssignment.debug.xcconfig"; path = "Target Support Files/Pods-BiofourmisAssignment/Pods-BiofourmisAssignment.debug.xcconfig"; sourceTree = "<group>"; };
+		A9BE48DA30ACA05B34FCAE1D /* Pods-BiofourmisAssignmentTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BiofourmisAssignmentTests.debug.xcconfig"; path = "Target Support Files/Pods-BiofourmisAssignmentTests/Pods-BiofourmisAssignmentTests.debug.xcconfig"; sourceTree = "<group>"; };
+		BD5EFCBAAE93D2202BB36890 /* Pods_BiofourmisAssignment.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BiofourmisAssignment.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEFE4E4B70D86C3A623E924B /* Pods-BiofourmisAssignmentTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BiofourmisAssignmentTests.release.xcconfig"; path = "Target Support Files/Pods-BiofourmisAssignmentTests/Pods-BiofourmisAssignmentTests.release.xcconfig"; sourceTree = "<group>"; };
+		EA2D1F3068A93A3341AF378B /* Pods_BiofourmisAssignment_BiofourmisAssignmentUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BiofourmisAssignment_BiofourmisAssignmentUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F020179C26CFF10900695B03 /* BiofourmisAssignment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BiofourmisAssignment.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F020179F26CFF10900695B03 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F02017A126CFF10900695B03 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		F02017A326CFF10900695B03 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		F02017A626CFF10900695B03 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F02017A826CFF10B00695B03 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F02017AB26CFF10B00695B03 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F02017AD26CFF10B00695B03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +74,23 @@
 		F02017BD26CFF10B00695B03 /* BiofourmisAssignmentUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BiofourmisAssignmentUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F02017C126CFF10B00695B03 /* BiofourmisAssignmentUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BiofourmisAssignmentUITests.swift; sourceTree = "<group>"; };
 		F02017C326CFF10B00695B03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F091199D26D50924000FE880 /* NetworkLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkLayer.swift; sourceTree = "<group>"; };
+		F09119AB26D50993000FE880 /* EmployeeListWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeListWorker.swift; sourceTree = "<group>"; };
+		F09119B326D50A5A000FE880 /* EmployeeListModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeListModel.swift; sourceTree = "<group>"; };
+		F09119C526D50D40000FE880 /* EmployeListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeListViewModel.swift; sourceTree = "<group>"; };
+		F09119CD26D52892000FE880 /* EmployeeDetailViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = EmployeeDetailViewController.storyboard; sourceTree = "<group>"; };
+		F09119D226D52B3A000FE880 /* EmployeeDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeDetailViewController.swift; sourceTree = "<group>"; };
+		F09119DD26D5304A000FE880 /* EmployeeDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeDetailViewModel.swift; sourceTree = "<group>"; };
+		F09119E226D56026000FE880 /* AppHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppHelper.swift; sourceTree = "<group>"; };
+		F09119F726D56C12000FE880 /* BiofourmisConstant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BiofourmisConstant.swift; sourceTree = "<group>"; };
+		F0911A0526D589FB000FE880 /* AgentLoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgentLoginViewModel.swift; sourceTree = "<group>"; };
+		F0E8375D26D00D3C0054E04C /* AgentLoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AgentLoginViewController.swift; sourceTree = "<group>"; };
+		F0E8375F26D00D3C0054E04C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/AgentLoginViewController.storyboard; sourceTree = "<group>"; };
+		F0E8376D26D00E320054E04C /* EmployeListTableViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = EmployeListTableViewController.storyboard; sourceTree = "<group>"; };
+		F0E8377226D00E6B0054E04C /* EmployeListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeListTableViewController.swift; sourceTree = "<group>"; };
+		F0E8377726D00E9A0054E04C /* EmployeListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeListTableViewCell.swift; sourceTree = "<group>"; };
+		F0E8377826D00E9A0054E04C /* EmployeListTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EmployeListTableViewCell.xib; sourceTree = "<group>"; };
+		F0E8378626D011D10054E04C /* BiofourmisExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BiofourmisExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +98,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D979E1F2E0934E3847480B2B /* Pods_BiofourmisAssignment.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +106,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4F0646376F0D37F22003F490 /* Pods_BiofourmisAssignmentTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +114,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				787DC39C95B8F1302F8057D0 /* Pods_BiofourmisAssignment_BiofourmisAssignmentUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		193DC9511E3A12B1FBE0E4D4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BD5EFCBAAE93D2202BB36890 /* Pods_BiofourmisAssignment.framework */,
+				EA2D1F3068A93A3341AF378B /* Pods_BiofourmisAssignment_BiofourmisAssignmentUITests.framework */,
+				04F06EDD55FA00E7F4F8AA82 /* Pods_BiofourmisAssignmentTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BC38DBB1486133CE44A42414 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				90D283C73F26E47CABA5B551 /* Pods-BiofourmisAssignment.debug.xcconfig */,
+				7CBE597CDC48C6707D069EB4 /* Pods-BiofourmisAssignment.release.xcconfig */,
+				42502B637DF0EF70D352A218 /* Pods-BiofourmisAssignment-BiofourmisAssignmentUITests.debug.xcconfig */,
+				2EA2F93CA4148057AD7DF7E1 /* Pods-BiofourmisAssignment-BiofourmisAssignmentUITests.release.xcconfig */,
+				A9BE48DA30ACA05B34FCAE1D /* Pods-BiofourmisAssignmentTests.debug.xcconfig */,
+				CEFE4E4B70D86C3A623E924B /* Pods-BiofourmisAssignmentTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		F020179326CFF10900695B03 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +151,8 @@
 				F02017B526CFF10B00695B03 /* BiofourmisAssignmentTests */,
 				F02017C026CFF10B00695B03 /* BiofourmisAssignmentUITests */,
 				F020179D26CFF10900695B03 /* Products */,
+				BC38DBB1486133CE44A42414 /* Pods */,
+				193DC9511E3A12B1FBE0E4D4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,12 +169,8 @@
 		F020179E26CFF10900695B03 /* BiofourmisAssignment */ = {
 			isa = PBXGroup;
 			children = (
-				F020179F26CFF10900695B03 /* AppDelegate.swift */,
-				F02017A126CFF10900695B03 /* SceneDelegate.swift */,
-				F02017A326CFF10900695B03 /* ViewController.swift */,
-				F02017A526CFF10900695B03 /* Main.storyboard */,
-				F02017A826CFF10B00695B03 /* Assets.xcassets */,
-				F02017AA26CFF10B00695B03 /* LaunchScreen.storyboard */,
+				F02017D626D00C7900695B03 /* Component */,
+				F0E8376526D00D4F0054E04C /* Helper */,
 				F02017AD26CFF10B00695B03 /* Info.plist */,
 			);
 			path = BiofourmisAssignment;
@@ -128,6 +194,129 @@
 			path = BiofourmisAssignmentUITests;
 			sourceTree = "<group>";
 		};
+		F02017D626D00C7900695B03 /* Component */ = {
+			isa = PBXGroup;
+			children = (
+				F09119CA26D52853000FE880 /* EmployeeDetail */,
+				F0E8376926D00D9E0054E04C /* EmployeeList */,
+				F0E8375926D00D3C0054E04C /* AgentLogin */,
+			);
+			path = Component;
+			sourceTree = "<group>";
+		};
+		F09119AA26D50974000FE880 /* Worker */ = {
+			isa = PBXGroup;
+			children = (
+				F09119AB26D50993000FE880 /* EmployeeListWorker.swift */,
+			);
+			path = Worker;
+			sourceTree = "<group>";
+		};
+		F09119CA26D52853000FE880 /* EmployeeDetail */ = {
+			isa = PBXGroup;
+			children = (
+				F09119CC26D52870000FE880 /* ViewModel */,
+				F09119CB26D52868000FE880 /* View */,
+			);
+			path = EmployeeDetail;
+			sourceTree = "<group>";
+		};
+		F09119CB26D52868000FE880 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F09119CD26D52892000FE880 /* EmployeeDetailViewController.storyboard */,
+				F09119D226D52B3A000FE880 /* EmployeeDetailViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F09119CC26D52870000FE880 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				F09119DD26D5304A000FE880 /* EmployeeDetailViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		F0E8375926D00D3C0054E04C /* AgentLogin */ = {
+			isa = PBXGroup;
+			children = (
+				F0E8375C26D00D3C0054E04C /* View */,
+				F0E8375A26D00D3C0054E04C /* ViewModel */,
+			);
+			path = AgentLogin;
+			sourceTree = "<group>";
+		};
+		F0E8375A26D00D3C0054E04C /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				F0911A0526D589FB000FE880 /* AgentLoginViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		F0E8375C26D00D3C0054E04C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F0E8375D26D00D3C0054E04C /* AgentLoginViewController.swift */,
+				F0E8375E26D00D3C0054E04C /* AgentLoginViewController.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F0E8376526D00D4F0054E04C /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				F02017AA26CFF10B00695B03 /* LaunchScreen.storyboard */,
+				F02017A826CFF10B00695B03 /* Assets.xcassets */,
+				F020179F26CFF10900695B03 /* AppDelegate.swift */,
+				F02017A126CFF10900695B03 /* SceneDelegate.swift */,
+				F0E8378626D011D10054E04C /* BiofourmisExtension.swift */,
+				F091199D26D50924000FE880 /* NetworkLayer.swift */,
+				F09119E226D56026000FE880 /* AppHelper.swift */,
+				F09119F726D56C12000FE880 /* BiofourmisConstant.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		F0E8376926D00D9E0054E04C /* EmployeeList */ = {
+			isa = PBXGroup;
+			children = (
+				F09119AA26D50974000FE880 /* Worker */,
+				F0E8376C26D00E050054E04C /* ViewModel */,
+				F0E8376B26D00DF90054E04C /* View */,
+				F0E8376A26D00DF00054E04C /* Model */,
+			);
+			path = EmployeeList;
+			sourceTree = "<group>";
+		};
+		F0E8376A26D00DF00054E04C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F09119B326D50A5A000FE880 /* EmployeeListModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F0E8376B26D00DF90054E04C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F0E8376D26D00E320054E04C /* EmployeListTableViewController.storyboard */,
+				F0E8377226D00E6B0054E04C /* EmployeListTableViewController.swift */,
+				F0E8377726D00E9A0054E04C /* EmployeListTableViewCell.swift */,
+				F0E8377826D00E9A0054E04C /* EmployeListTableViewCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F0E8376C26D00E050054E04C /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				F09119C526D50D40000FE880 /* EmployeListViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +324,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F02017C626CFF10B00695B03 /* Build configuration list for PBXNativeTarget "BiofourmisAssignment" */;
 			buildPhases = (
+				D3D703869B99892CA6A2C003 /* [CP] Check Pods Manifest.lock */,
 				F020179826CFF10900695B03 /* Sources */,
 				F020179926CFF10900695B03 /* Frameworks */,
 				F020179A26CFF10900695B03 /* Resources */,
+				F20024CEB4DB0226968CF84C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +343,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F02017C926CFF10B00695B03 /* Build configuration list for PBXNativeTarget "BiofourmisAssignmentTests" */;
 			buildPhases = (
+				D80933EC20B146158CAC1F7A /* [CP] Check Pods Manifest.lock */,
 				F02017AE26CFF10B00695B03 /* Sources */,
 				F02017AF26CFF10B00695B03 /* Frameworks */,
 				F02017B026CFF10B00695B03 /* Resources */,
@@ -170,9 +362,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F02017CC26CFF10B00695B03 /* Build configuration list for PBXNativeTarget "BiofourmisAssignmentUITests" */;
 			buildPhases = (
+				A66293C18DC0154E2852D8DC /* [CP] Check Pods Manifest.lock */,
 				F02017B926CFF10B00695B03 /* Sources */,
 				F02017BA26CFF10B00695B03 /* Frameworks */,
 				F02017BB26CFF10B00695B03 /* Resources */,
+				0CD6B8D392055A76EFCB6566 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -231,9 +425,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F0E8376E26D00E320054E04C /* EmployeListTableViewController.storyboard in Resources */,
+				F09119CE26D52892000FE880 /* EmployeeDetailViewController.storyboard in Resources */,
+				F0E8376126D00D3C0054E04C /* AgentLoginViewController.storyboard in Resources */,
+				F0E8377A26D00E9A0054E04C /* EmployeListTableViewCell.xib in Resources */,
 				F02017AC26CFF10B00695B03 /* LaunchScreen.storyboard in Resources */,
 				F02017A926CFF10B00695B03 /* Assets.xcassets in Resources */,
-				F02017A726CFF10900695B03 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,14 +450,129 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0CD6B8D392055A76EFCB6566 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BiofourmisAssignment-BiofourmisAssignmentUITests/Pods-BiofourmisAssignment-BiofourmisAssignmentUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BiofourmisAssignment-BiofourmisAssignmentUITests/Pods-BiofourmisAssignment-BiofourmisAssignmentUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BiofourmisAssignment-BiofourmisAssignmentUITests/Pods-BiofourmisAssignment-BiofourmisAssignmentUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A66293C18DC0154E2852D8DC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BiofourmisAssignment-BiofourmisAssignmentUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D3D703869B99892CA6A2C003 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BiofourmisAssignment-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D80933EC20B146158CAC1F7A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BiofourmisAssignmentTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F20024CEB4DB0226968CF84C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BiofourmisAssignment/Pods-BiofourmisAssignment-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BiofourmisAssignment/Pods-BiofourmisAssignment-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BiofourmisAssignment/Pods-BiofourmisAssignment-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		F020179826CFF10900695B03 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F02017A426CFF10900695B03 /* ViewController.swift in Sources */,
+				F09119F826D56C12000FE880 /* BiofourmisConstant.swift in Sources */,
+				F09119C626D50D40000FE880 /* EmployeListViewModel.swift in Sources */,
+				F091199E26D50924000FE880 /* NetworkLayer.swift in Sources */,
+				F09119AC26D50993000FE880 /* EmployeeListWorker.swift in Sources */,
+				F09119DE26D5304A000FE880 /* EmployeeDetailViewModel.swift in Sources */,
 				F02017A026CFF10900695B03 /* AppDelegate.swift in Sources */,
+				F09119B426D50A5A000FE880 /* EmployeeListModel.swift in Sources */,
+				F0E8377926D00E9A0054E04C /* EmployeListTableViewCell.swift in Sources */,
+				F0E8377326D00E6C0054E04C /* EmployeListTableViewController.swift in Sources */,
+				F09119D326D52B3A000FE880 /* EmployeeDetailViewController.swift in Sources */,
+				F0911A0626D589FB000FE880 /* AgentLoginViewModel.swift in Sources */,
 				F02017A226CFF10900695B03 /* SceneDelegate.swift in Sources */,
+				F09119E326D56026000FE880 /* AppHelper.swift in Sources */,
+				F0E8378726D011D10054E04C /* BiofourmisExtension.swift in Sources */,
+				F0E8376026D00D3C0054E04C /* AgentLoginViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,20 +608,20 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		F02017A526CFF10900695B03 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F02017A626CFF10900695B03 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		F02017AA26CFF10B00695B03 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				F02017AB26CFF10B00695B03 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		F0E8375E26D00D3C0054E04C /* AgentLoginViewController.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F0E8375F26D00D3C0054E04C /* Base */,
+			);
+			name = AgentLoginViewController.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -433,6 +745,7 @@
 		};
 		F02017C726CFF10B00695B03 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 90D283C73F26E47CABA5B551 /* Pods-BiofourmisAssignment.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -452,6 +765,7 @@
 		};
 		F02017C826CFF10B00695B03 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7CBE597CDC48C6707D069EB4 /* Pods-BiofourmisAssignment.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -471,6 +785,7 @@
 		};
 		F02017CA26CFF10B00695B03 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A9BE48DA30ACA05B34FCAE1D /* Pods-BiofourmisAssignmentTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -493,6 +808,7 @@
 		};
 		F02017CB26CFF10B00695B03 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CEFE4E4B70D86C3A623E924B /* Pods-BiofourmisAssignmentTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -515,6 +831,7 @@
 		};
 		F02017CD26CFF10B00695B03 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 42502B637DF0EF70D352A218 /* Pods-BiofourmisAssignment-BiofourmisAssignmentUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -535,6 +852,7 @@
 		};
 		F02017CE26CFF10B00695B03 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2EA2F93CA4148057AD7DF7E1 /* Pods-BiofourmisAssignment-BiofourmisAssignmentUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

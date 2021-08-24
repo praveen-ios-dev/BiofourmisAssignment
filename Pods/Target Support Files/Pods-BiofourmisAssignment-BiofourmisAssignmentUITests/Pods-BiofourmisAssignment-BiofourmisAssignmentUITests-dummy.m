@@ -1,0 +1,5 @@
+#import <Foundation/Foundation.h>
+@interface PodsDummy_Pods_BiofourmisAssignment_BiofourmisAssignmentUITests : NSObject
+@end
+@implementation PodsDummy_Pods_BiofourmisAssignment_BiofourmisAssignmentUITests
+@end

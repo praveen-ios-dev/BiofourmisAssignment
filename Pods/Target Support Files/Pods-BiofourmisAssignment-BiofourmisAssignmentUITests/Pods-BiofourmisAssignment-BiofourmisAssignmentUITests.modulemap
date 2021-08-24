@@ -1,0 +1,6 @@
+framework module Pods_BiofourmisAssignment_BiofourmisAssignmentUITests {
+  umbrella header "Pods-BiofourmisAssignment-BiofourmisAssignmentUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
